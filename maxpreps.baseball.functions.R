@@ -1,9 +1,12 @@
-# Maxpreps functions
+## Maxpreps functions
+## Bill Petti
+## May 26, 2016
+
 # load look up table
 
 baseball_var_lu_table <- read.csv("https://raw.githubusercontent.com/BillPetti/MaxPreps/master/maxpreps_varisty_baseball_lu_table")
 
-# Offense
+# Offensive statistics
 
 maxprep_batting_ind <- function(url) {
   list <- readHTMLTable(url)
@@ -58,7 +61,7 @@ maxprep_batting_team <- function(url) {
   x_team
 }
 
-# Pitching
+# Pitching statistics
 
 maxprep_pitching_ind <- function(url) {
   list <- readHTMLTable(url)
