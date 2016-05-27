@@ -2,9 +2,11 @@
 ## Bill Petti
 ## May 26, 2016
 
-# load look up table
+# load look up table - this table includes team name, city, state, and url for the stats page for every high school with a varisty baseball team in the United States on MaxPreps
 
 baseball_var_lu_table <- read.csv("https://raw.githubusercontent.com/BillPetti/MaxPreps/master/maxpreps_varisty_baseball_lu_table")
+
+# The only argument you need to supply any of the functions is the url to the team's stats page
 
 # Offensive statistics
 
