@@ -1,6 +1,10 @@
 # Functions for acquiring and calculating custom metrics for high school players from MaxPreps
 Includes a table of url's for every varisty team in the United States as well as code for acquiring individual and team-level batting and pitching statistics based on those urls.
 
+To load the functions contained in the `R` scipt into your session, execute the following:
+
+`source("https://raw.githubusercontent.com/BillPetti/MaxPreps/master/maxpreps.baseball.functions.R")`
+
 ###Example
 
 Run the `R` script to load the functions and the lookup table into your `R` session.
