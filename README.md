@@ -3,7 +3,12 @@ Includes a table of url's for every varisty team in the United States as well as
 
 To load the functions contained in the `R` scipt into your session, execute the following:
 
-`source("https://raw.githubusercontent.com/BillPetti/MaxPreps/master/maxpreps.baseball.functions.R")`
+``` r
+require(rvest)    
+require(dplyr)
+require(magrittr)
+source("https://raw.githubusercontent.com/BillPetti/MaxPreps/master/maxpreps.baseball.functions.R")
+```
 
 ###Example
 
